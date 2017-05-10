@@ -81,6 +81,10 @@ a{
   padding: 0px 20px 0px 20px;
 }
 
+.fully-padded li{
+  padding: 20px 40px 20px 0;
+}
+
 .padded td{
   padding: 10px 20px 10px 20px;
 }
@@ -116,8 +120,14 @@ a:hover{
   bottom: 0;
   background-color: #384047;
 }
+
 #page-content {
   margin-left: 120px;
+}
+
+ul
+{
+list-style-type: none;
 }
 
 
