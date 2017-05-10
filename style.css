@@ -43,7 +43,7 @@ a{
 .card{
   background-color: #FFFFFF;
   border-radius: 4px;
-  width: 500px;
+  width: 1150px;
   margin: 25px auto;
   padding: 20px 20px 20px 20px;
   box-shadow: 0.5px 0.5px 1px #7D7D7D;
@@ -106,6 +106,18 @@ a:hover{
 .list-inline li {
     display: inline-block;
     padding: 20px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+#page-content {
+  margin-left: 120px;
 }
 
 
