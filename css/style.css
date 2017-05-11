@@ -1,0 +1,84 @@
+/* Here goes your CSS */
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/list.css");
+@import url("components/profile-header.css");
+@import url("components/sidebar.css");
+@import url("components/style.css");
+@import url("components/table.css");
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  background-color: #EBEBEB;
+  text-align: center;
+  color: #7D7D7D;
+}
+
+h1{
+  color: #DD5555;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+h2{
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+h3{
+  color: #DD5555;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+a{
+  text-decoration: none;
+  color: #7D7D7D;
+  font-weight: 100;
+}
+
+a:hover{
+  color: #C61414;
+}
+
+img.resize-medium{
+  width: 100px;
+  height: auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.centered-table{
+  margin: 25px auto;
+}
+
+.padded{
+  padding: 0px 20px 0px 20px;
+}
+
+.text-style-small{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.text-style-Montserrat{
+  font-family: 'Montserrat'
+}
+
+.list-inline{
+  padding-left: 0;
+}
+

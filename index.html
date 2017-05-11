@@ -11,34 +11,45 @@
     <script src="https://use.fontawesome.com/8122a7aa80.js"></script>
 
     <!-- Your style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <!-- Here goes your content -->
     <div id="sidebar">
-    <ul class="fully-padded">
-      <li><a href="#summary"><i class="fa fa-info-circle fa-2x" aria-hidden="true"></i></a></li>
-      <li><a href="#curriculum"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a></li>
-      <li><a href="#hobbies"><i class="fa fa-heart-o fa-2x" aria-hidden="true"></i></a></li>
-      <li><a href="#about"><i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i></a></li>
-    </ul>
+      <ul class="fully-padded">
+        <li><a href="#summary"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="#curriculum"><i class="fa fa-globe fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="#hobbies"><i class="fa fa-heart-o fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="#about"><i class="fa fa-graduation-cap fa-lg" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
 
-    <div id="page-content">
+    <!-- Header -->
 
+    <div class="profile-header-wrapper" id="page-content-header">
       <div class="container">
-
-        <!-- Profile picture and title -->
-        <div class="card" id="summary">
-          <img src="images/profile_pic.jpg" class="resize-medium img-circle grey-border">
-          <h1>Sandrine Ayral</h1>
-          <h2>Head of Marketing... and student <br>@Le Wagon London</h2>
-          <p>After 2 years spent in the Parisian tech startup industry, 2 years working in the bitcoin ecosystem and 2 years working in between London, Paris and NYC on startup projects<br> - <strong>I'm now learning how to code with Le Wagon.</strong></p>
-          <a href="https://www.lewagon.com/london" class="button-red" target="_blank">Here's how!</a>
+        <!-- Avatar and username -->
+        <div class="profile-header-infos">
+          <img src="images/profile_pic.jpg" alt="profile picture" class="avatar">
+          <div class="profile-header-username">
+            <h1>Sandrine Ayral</h1>
+            <h2>Head of Marketing @Le Wagon London</h2>
+          </div>
         </div>
+      </div>
+
+
+    <!-- <div id="page-content"> -->
+        <!-- Profile picture and title -->
+        <div class="card-header" id="summary">
+          <p>6 years of tech startuping: VC, startup accelerator, bitcoin <br> Fundraising, Community building, Marketing, Product Management <br> Your perfect startup 1st employee / Jack of all trades<br><strong></strong></p>
+          <a href="https://www.lewagon.com/london" class="button-red" target="_blank">I'm now learning how to code with Le Wagon.</a>
+        </div>
+    </div>
 
         <!-- Social links -->
+      <div class="container" id="page-content">
         <div class="card">
           <table class="text-center centered-table">
             <tbody>
@@ -55,6 +66,13 @@
                     <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
                     <br>
                     LinkedIn
+                  </a>
+                </td>
+                <td class="padded">
+                  <a href="https://github.com/sandrineay" target="_blank">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    <br>
+                    Github
                   </a>
                 </td>
                 <td class="padded">
@@ -148,6 +166,6 @@
           </ul>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </body>
 </html>
