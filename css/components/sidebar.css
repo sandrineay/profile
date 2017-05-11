@@ -5,6 +5,9 @@
   top: 0;
   bottom: 0;
   background-color: rgb(14, 19, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #page-content-header {
@@ -14,3 +17,4 @@
 #page-content {
   margin-left: 90px;
 }
+
