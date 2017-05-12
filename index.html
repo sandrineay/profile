@@ -1,11 +1,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sam @Le Wagon</title>
     <meta name="description" content="Learning how to code with Le Wagon">
 
     <!-- Google fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
     <!-- Fontawesome -->
     <script src="https://use.fontawesome.com/8122a7aa80.js"></script>
@@ -15,7 +20,7 @@
   </head>
   <body>
 
-    <!-- Here goes your content -->
+    <!-- Sidebar -->
     <div id="sidebar">
       <div><a href="#summary"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a></div>
       <div><a href="#curriculum"><i class="fa fa-globe fa-lg" aria-hidden="true"></i></a></div>
@@ -25,127 +30,145 @@
 
     <!-- Header -->
 
-    <div class="profile-header-wrapper" id="page-content-header">
+    <div id="main-content">
 
-      <div class="container">
-        <!-- Avatar and username -->
-        <div class="profile-header-infos">
-          <img src="images/profile_pic.jpg" alt="profile picture" class="avatar">
-          <div class="profile-header-username">
-            <h1>Sandrine Ayral</h1>
-            <h2>Head of Marketing @Le Wagon London</h2>
+      <div class="profile-header-wrapper">
+
+      <!-- Profile picture + Name and title -->
+
+        <div class="container">
+          <div class="profile-header-infos">
+            <img src="images/profile_pic.jpg" alt="profile picture" class="avatar">
+            <div class="profile-header-username">
+              <h1>Sandrine Ayral</h1>
+              <h2>Head of Marketing @Le Wagon London</h2>
+            </div>
           </div>
+        </div>
+
+        <!-- Cards -->
+
+        <div class="container" id="summary">
+
+          <div class="row">
+            <div class="col-xs-6">
+              <!-- Summary -->
+              <div class="card-summary">
+                <p>6 years of tech startuping: VC, startup accelerator, bitcoin <br> Fundraising, Community building, Marketing, Product Management <br> Your perfect startup 1st employee / Jack of all trades<br><strong></strong></p>
+                <a href="https://www.lewagon.com/london" class="button-red" target="_blank">I'm now learning how to code with Le Wagon</a>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <!-- Social links -->
+              <div class="card-summary">
+                <div class="social-links">
+                  <div><a href="https://twitter.com/sandrineay" target="_blank">
+                          <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                        </a></div>
+                  <div><a href="https://www.linkedin.com/in/sandrineay/" target="_blank">
+                          <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                        </a></div>
+                  <div><a href="https://github.com/sandrineay" target="_blank">
+                          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                        </a></div>
+                  <div><a href="https://www.instagram.com/sandrineayral/" target="_blank">
+                          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                        </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
 
 
-      <div class="container" id="summary-social-links">
-        <div class="card-header" id="summary">
-          <p>6 years of tech startuping: VC, startup accelerator, bitcoin <br> Fundraising, Community building, Marketing, Product Management <br> Your perfect startup 1st employee / Jack of all trades<br><strong></strong></p>
-          <a href="https://www.lewagon.com/london" class="button-red" target="_blank">I'm now learning how to code with Le Wagon.</a>
-        </div>
-        <!-- Social links -->
-        <div class="card-social-links">
-          <div class="social-links">
-            <div><a href="https://twitter.com/sandrineay" target="_blank">
-                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                  </a></div>
-            <div><a href="https://www.linkedin.com/in/sandrineay/" target="_blank">
-                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-                  </a></div>
-            <div><a href="https://github.com/sandrineay" target="_blank">
-                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                  </a></div>
-            <div><a href="https://www.instagram.com/sandrineayral/" target="_blank">
-                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
-                  </a></div>
+
+
+          <!-- CV -->
+          <div class="card" id="curriculum">
+            <h3>Stuff I've done</h3>
+            <table>
+              <tbody>
+                <tr class="padded">
+                  <td><img src="images/siliconmilkroundabout.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Head of Marketing - 2016 - 6 months</strong><br>In charge of bringing 3,000+ talented tech and non-tech talent to our bi-annual events.
+    Worked on our international expansion and have organised a first event in New York on SMR's behalf, in partnership with Women in Tech NY.</td>
+                </tr>
+                <tr class="padded">
+                  <td><img src="images/neucoin.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Head of Community - 2015 - 1.5 year</strong><br>I was in charge of creating and managing a community as well as our social media strategy. Successfully managed a $1M crowdfunding campaign.</td>
+                </tr>
+                <tr class="padded">
+                  <td><img src="images/coinbase.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Merchant Support - 2014 - 6 months</strong><br>Responsible for the on-boarding of Merchants - both online and offline - who wish to accept bitcoin as a payment method.</td>
+                </tr>
+                <tr class="padded">
+                  <td><img src="images/thefamily.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Partnerships Manager - 2013 - 1 year</strong><br>A few 1st-year missions at TheFamily:<br>
+    - "Unfair advantages" development: partnerships with 30+ web and tech companies (AWS, Twilio, Stripe, Sendgrid, etc)<br>
+    - Management of the startups portfolio (60+ companies today)<br>
+    - Organization and management of events aimed at different stakeholders of the ecosystem<br>
+    - Development of the project TheFamily Reboot: investing in and transforming underperforming companies thanks to technology and new business models.</td>
+                </tr>
+                <tr class="padded">
+                  <td><img src="images/numa.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Business Associate - 2012 - 6 months</strong><br>My role was to help the 12 incubated startups until Demo Day on the following points:<br>
+    - Strategic and business vision<br>
+    - Fundraising<br>
+    - Elaboration of a business plan and a viable financial model (when relevant)</td>
+                </tr>
+                <tr class="padded">
+                  <td><img src="images/alvencap.png" class="resize-medium"></td>
+                  <td class="text-style-small"><strong>Analyst - 2012 - 6 months</strong><br>Alven Capital is a Parisian VC fund. It invests in web and tech companies, from early to development stages (initial investment from 200K€ to 5M€).<br>
+    - Deal flow sourcing,<br>
+    - Preliminary analysis of new investment opportunities,<br>
+    - Meeting with the most promising entrepreneurs,<br>
+    - Weekly pitch of the projects to Alven's investment committee,<br>
+    - Technology watch, thorough studies and analysis on relevant investment subjects,<br>
+    - Work on the investment in SoCloz (web-to-store startup), from the first contact to the first board committee.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Interests -->
+          <div class="card" id="hobbies">
+            <h3>Stuff I care about</h3>
+            <table>
+              <tbody>
+                <tr class="padded text-style-Montserrat">
+                  <td>Cooking</td>
+                  <td class="text-style-small">Check out my <a href="https://thefoodromp.com/" class="button-red" target="_blank">food blog</a> :)</td>
+                </tr>
+                <tr class="padded text-style-Montserrat">
+                  <td>Sailing</td>
+                  <td class="text-style-small">On my bucket list: doing one transatlantic. For now, only a Hobbicat racer.</td>
+                </tr>
+                <tr class="padded text-style-Montserrat">
+                  <td>Outdoors</td>
+                  <td class="text-style-small">Diving, Hiking, Running: Probably won't stay in London forever!!</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- Footer -->
+          <div class="card" id="about">
+            <h3>About this page</h3>
+            <p>This page was made during Le Wagon Bootcamp</p>
+            <ul class="list-inline">
+              <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-star fa-2x" aria-hidden="true"></i></a></li>
+            </ul>
           </div>
         </div>
-      </div>
+
     </div>
-
-
-
-
-        <!-- CV -->
-        <div class="card" id="curriculum">
-          <h3>Stuff I've done</h3>
-          <table>
-            <tbody>
-              <tr class="padded">
-                <td><img src="images/siliconmilkroundabout.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Head of Marketing - 2016 - 6 months</strong><br>In charge of bringing 3,000+ talented tech and non-tech talent to our bi-annual events.
-  Worked on our international expansion and have organised a first event in New York on SMR's behalf, in partnership with Women in Tech NY.</td>
-              </tr>
-              <tr class="padded">
-                <td><img src="images/neucoin.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Head of Community - 2015 - 1.5 year</strong><br>I was in charge of creating and managing a community as well as our social media strategy. Successfully managed a $1M crowdfunding campaign.</td>
-              </tr>
-              <tr class="padded">
-                <td><img src="images/coinbase.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Merchant Support - 2014 - 6 months</strong><br>Responsible for the on-boarding of Merchants - both online and offline - who wish to accept bitcoin as a payment method.</td>
-              </tr>
-              <tr class="padded">
-                <td><img src="images/thefamily.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Partnerships Manager - 2013 - 1 year</strong><br>A few 1st-year missions at TheFamily:<br>
-  - "Unfair advantages" development: partnerships with 30+ web and tech companies (AWS, Twilio, Stripe, Sendgrid, etc)<br>
-  - Management of the startups portfolio (60+ companies today)<br>
-  - Organization and management of events aimed at different stakeholders of the ecosystem<br>
-  - Development of the project TheFamily Reboot: investing in and transforming underperforming companies thanks to technology and new business models.</td>
-              </tr>
-              <tr class="padded">
-                <td><img src="images/numa.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Business Associate - 2012 - 6 months</strong><br>My role was to help the 12 incubated startups until Demo Day on the following points:<br>
-  - Strategic and business vision<br>
-  - Fundraising<br>
-  - Elaboration of a business plan and a viable financial model (when relevant)</td>
-              </tr>
-              <tr class="padded">
-                <td><img src="images/alvencap.png" class="resize-medium"></td>
-                <td class="text-style-small"><strong>Analyst - 2012 - 6 months</strong><br>Alven Capital is a Parisian VC fund. It invests in web and tech companies, from early to development stages (initial investment from 200K€ to 5M€).<br>
-  - Deal flow sourcing,<br>
-  - Preliminary analysis of new investment opportunities,<br>
-  - Meeting with the most promising entrepreneurs,<br>
-  - Weekly pitch of the projects to Alven's investment committee,<br>
-  - Technology watch, thorough studies and analysis on relevant investment subjects,<br>
-  - Work on the investment in SoCloz (web-to-store startup), from the first contact to the first board committee.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Interests -->
-        <div class="card" id="hobbies">
-          <h3>Stuff I care about</h3>
-          <table>
-            <tbody>
-              <tr class="padded text-style-Montserrat">
-                <td>Cooking</td>
-                <td class="text-style-small">Check out my <a href="https://thefoodromp.com/" class="button-red" target="_blank">food blog</a> :)</td>
-              </tr>
-              <tr class="padded text-style-Montserrat">
-                <td>Sailing</td>
-                <td class="text-style-small">On my bucket list: doing one transatlantic. For now, only a Hobbicat racer.</td>
-              </tr>
-              <tr class="padded text-style-Montserrat">
-                <td>Outdoors</td>
-                <td class="text-style-small">Diving, Hiking, Running: Probably won't stay in London forever!!</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <!-- Footer -->
-        <div class="card" id="about">
-          <h3>About this page</h3>
-          <p>This page was made during Le Wagon Bootcamp</p>
-          <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-star fa-2x" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    <!-- </div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
